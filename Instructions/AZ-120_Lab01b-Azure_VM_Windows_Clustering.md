@@ -1,7 +1,17 @@
 ---
 lab:
-    title: '01b - Implement Windows clustering on Azure VMs'
-    module: 'Module 01 - Explore the foundations of IaaS for SAP on Azure'
+  title: 01b - Implement Windows clustering on Azure VMs
+  module: Module 01 - Explore the foundations of IaaS for SAP on Azure
+  description: In this exercise, you will deploy Azure infrastructure compute components necessary to configure Failover Clustering on Azure VMs running Windows Server 2022. This will involve deploying a pair of Active Directory domain controllers, followed by a pair of Azure VMs running Windows Server 2022. Each pair of the VMs will be placed in separate availability zones within the same virtual network. To automate the deployment of domain controllers, you will use an Azure Resource Manager QuickStart template available from <https://aka.ms/az120-1bdeploy
+  duration: 120 minutes
+  level: 500
+  islab: true
+  primarytopics:
+    - Azure
+    - Azure Resource Manager
+    - Windows
+    - Active Directory
+    - Windows Server
 ---
 
 # AZ 120 Module 1: Explore the foundations of IaaS for SAP on Azure
