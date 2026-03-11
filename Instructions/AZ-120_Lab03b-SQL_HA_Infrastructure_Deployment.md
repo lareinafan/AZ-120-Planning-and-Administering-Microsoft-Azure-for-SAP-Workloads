@@ -1,7 +1,15 @@
 ---
 lab:
-    title: '04b - Implement SAP architecture on Azure VMs running Windows'
-    module: 'Module 04 - Deploy SAP on Azure'
+  title: 04b - Implement SAP architecture on Azure VMs running Windows
+  module: Module 04 - Deploy SAP on Azure
+  description: In this exercise, you will configure operating system of Azure VMs running Windows Server to accommodate a highly available SAP NetWeaver deployment.
+  duration: 150 minutes
+  level: 500
+  islab: true
+  primarytopics:
+    - Azure
+    - Windows
+    - Windows Server
 ---
 
 # AZ 120 Module 4: Deploy SAP on Azure
