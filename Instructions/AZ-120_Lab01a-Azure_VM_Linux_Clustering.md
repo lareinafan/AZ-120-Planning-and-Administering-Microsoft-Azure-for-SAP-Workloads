@@ -1,7 +1,14 @@
 ---
 lab:
-    title: '02a - Implement Linux clustering on Azure VMs'
-    module: 'Module 02 - Explore the foundations of IaaS for SAP on Azure'
+  title: 02a - Implement Linux clustering on Azure VMs
+  module: Module 02 - Explore the foundations of IaaS for SAP on Azure
+  description: In this exercise, you will deploy Azure infrastructure compute components necessary to configure Linux clustering. This will involve creating a pair of Azure VMs running Linux SUSE in the same availability set and provisioning Azure Bastion.
+  duration: 90 minutes
+  level: 500
+  islab: true
+  primarytopics:
+    - Azure
+    - Azure Bastion
 ---
 
 # AZ 120 Module 2: Explore the foundations of IaaS for SAP on Azure
