@@ -1,7 +1,13 @@
 ---
 lab:
-    title: '05 - Automate deployment by using Azure Center for SAP solutions'
-    module: 'Design and implement an infrastructure to support SAP workloads on Azure'
+  title: 05 - Automate deployment by using Azure Center for SAP solutions
+  module: Design and implement an infrastructure to support SAP workloads on Azure
+  description: 'In this exercise, you will implement prerequisites for deploying SAP workloads in Azure by using Azure Center for SAP solutions. This will include the following tasks:'
+  duration: 100 minutes
+  level: 500
+  islab: true
+  primarytopics:
+    - Azure
 ---
 
 # AZ 120 Module: Design and implement an infrastructure to support SAP workloads on Azure
