@@ -2,7 +2,7 @@
 lab:
   title: 02a - Implement Linux clustering on Azure VMs
   module: Module 02 - Explore the foundations of IaaS for SAP on Azure
-  description: Provision Azure compute resources necessary to support highly available SAP HANA deployments. Configure operating system of Azure VMs running Linux to support a highly available SAP HANA installation. Provision Azure network resources necessary to support highly available SAP HANA deployments.
+  description: Deploy Azure infrastructure compute components necessary to configure Linux clustering. This will involve creating a pair of Azure VMs running Linux SUSE in the same availability set and provisioning Azure Bastion. Configure operating system and storage on Azure VMs running SUSE Linux Enterprise Server to accommodate clustered installations of SAP HANA. Implement Azure Load Balancers to accommodate clustered installations of SAP HANA.
   duration: 90 minutes
   level: 500
   islab: true
