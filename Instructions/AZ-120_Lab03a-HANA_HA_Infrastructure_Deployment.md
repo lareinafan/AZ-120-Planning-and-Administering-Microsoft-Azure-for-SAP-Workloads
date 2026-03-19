@@ -8,6 +8,7 @@ lab:
   islab: true
   primarytopics:
     - Azure
+    - SAP
 ---
 
 # AZ 120 Module 4: Deploy SAP on Azure
