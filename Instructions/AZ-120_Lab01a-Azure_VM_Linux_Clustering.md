@@ -8,7 +8,7 @@ lab:
   islab: true
   primarytopics:
     - Azure
-    - Azure Bastion
+    - SAP
 ---
 
 # AZ 120 Module 2: Explore the foundations of IaaS for SAP on Azure
