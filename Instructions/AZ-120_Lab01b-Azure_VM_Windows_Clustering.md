@@ -2,7 +2,7 @@
 lab:
   title: 01b - Implement Windows clustering on Azure VMs
   module: Module 01 - Explore the foundations of IaaS for SAP on Azure
-  description: Provision Azure compute resources necessary to support highly available SAP NetWeaver deployments. Configure operating system of Azure VMs running Windows Server 2022 Datacenter to support a highly available SAP NetWeaver installation. Provision Azure network resources necessary to support highly available SAP NetWeaver deployments.
+  description: Deploy Azure infrastructure compute components necessary to configure Failover Clustering on Azure VMs running Windows Server 2022. Join Windows Server 2022 Datacenter VMs to the Active Directory domain. Implement Azure Load Balancers to accommodate clustered installations of SAP NetWeaver.
   duration: 120 minutes
   level: 500
   islab: true
