@@ -2,7 +2,7 @@
 lab:
   title: 04a - Implement SAP architecture on Azure VMs running Linux
   module: Module 04 - Deploy SAP on Azure
-  description: In this exercise, you will configure clustering on Azure VMs running Linux to support a highly available SAP NetWeaver deployment.
+  description: Deploy Azure infrastructure compute components, Azure VMs running Linux SUSE in the same availability set, necessary to configure Linux clustering. Configure Azure VMs running SUSE Linux Enterprise Server to accommodate a highly available SAP NetWeaver deployment. Configure clustering on Azure VMs running Linux to support a highly available SAP NetWeaver deployment.
   duration: 100 minutes
   level: 500
   islab: true
