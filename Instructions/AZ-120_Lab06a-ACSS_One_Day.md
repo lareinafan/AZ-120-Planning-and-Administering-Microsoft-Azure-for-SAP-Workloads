@@ -1,7 +1,14 @@
 ---
 lab:
-    title: '06a - Overview of prerequisites for deployment of Azure Center for SAP solutions (ACSS)'
-    module: 'Design and implement an infrastructure to support SAP workloads on Azure'
+  title: 06a - Overview of prerequisites for deployment of Azure Center for SAP solutions (ACSS)
+  module: Design and implement an infrastructure to support SAP workloads on Azure
+  description: 'In this exercise, you deploy secure SAP workloads in Azure by using Azure Center for SAP solutions.'
+  duration: 100 minutes
+  level: 500
+  islab: true
+  primarytopics:
+    - Azure
+    - SAP
 ---
 
 # AZ 1006 Module: Design and implement an infrastructure to support SAP workloads on Azure
