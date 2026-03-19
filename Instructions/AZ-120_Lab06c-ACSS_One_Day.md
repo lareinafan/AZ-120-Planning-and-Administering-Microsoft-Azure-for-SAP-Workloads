@@ -2,12 +2,13 @@
 lab:
   title: 06c - Overview of deployment Azure Center for SAP solutions
   module: Design and implement an infrastructure to support SAP workloads on Azure
-  description: 'In this exercise, you perform deployment of Azure Center for SAP solutions. This includes the following activity:'
+  description: In this exercise, you perform deployment of Azure Center for SAP solutions. 
   duration: 60 minutes
   level: 500
   islab: true
   primarytopics:
     - Azure
+    - SAP
 ---
 
 # AZ 1006 Module: Design and implement an infrastructure to support SAP workloads on Azure
