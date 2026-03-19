@@ -8,10 +8,7 @@ lab:
   islab: true
   primarytopics:
     - Azure
-    - Azure Resource Manager
-    - Windows
-    - Active Directory
-    - Windows Server
+    - SAP
 ---
 
 # AZ 120 Module 1: Explore the foundations of IaaS for SAP on Azure
