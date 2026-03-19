@@ -8,8 +8,7 @@ lab:
   islab: true
   primarytopics:
     - Azure
-    - Windows
-    - Windows Server
+    - SAP
 ---
 
 # AZ 120 Module 4: Deploy SAP on Azure
