@@ -8,6 +8,7 @@ lab:
   islab: true
   primarytopics:
     - Azure
+    - SAP
 ---
 
 # AZ 1006 Module: Design and implement an infrastructure to support SAP workloads on Azure
