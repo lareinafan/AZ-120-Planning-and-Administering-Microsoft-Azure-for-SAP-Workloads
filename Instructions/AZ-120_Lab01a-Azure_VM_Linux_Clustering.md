@@ -66,7 +66,7 @@ In this exercise, you will deploy Azure infrastructure compute components necess
     | **Region** | the Azure region where you have sufficient vCPU quotas |
     | **VM sizes** | **Standard D4s v3** |
 
-   > **Note**: Consider using **East US** or **East US2** regions for deployment of your resources.
+   > **Note**: Consider using **Australia East**, **East US**, or **East US2** regions for deployment of your resources.
 
 1. On the **Review + create** tab of the **Create Proximity Placement Groups** blade, select **Create**.
 

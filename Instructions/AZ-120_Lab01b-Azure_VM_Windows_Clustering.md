@@ -42,7 +42,7 @@ After completing this lab, you will be able to:
 
 -   A lab computer with an Azure Cloud Shell-compatible web browser and access to Azure
 
-> **Note**: Make sure that the Azure region you choose for deployment of your resources supports availability zones. For the list of such regions, refer to (https://docs.microsoft.com/en-us/azure/availability-zones/az-overview). Consider using **East US** or **East US2**.
+> **Note**: Make sure that the Azure region you choose for deployment of your resources supports availability zones. For the list of such regions, refer to (https://docs.microsoft.com/en-us/azure/availability-zones/az-overview). Consider using **Australia East**, **East US**, or **East US2**.
 
 ## Exercise 1: Provision Azure compute resources necessary to support highly available SAP NetWeaver deployments
 

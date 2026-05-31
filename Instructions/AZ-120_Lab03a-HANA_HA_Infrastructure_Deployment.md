@@ -65,9 +65,9 @@ In this exercise, you will deploy Azure infrastructure compute components necess
     LOCATION='<region>'
     ```
 
-    > **Note**: Consider using **East US** or **East US2** regions for deployment of your resources. 
+    > **Note**: Consider using **Australia East**, **East US**, or **East US2** regions for deployment of your resources. 
 
-    > **Note**: Ensure to use the proper notation for the Azure region (short name which does not include a space, e.g. **eastus** rather than **US East**)
+    > **Note**: Ensure to use the proper notation for the Azure region (short name which does not include a space, e.g. **australiaeast** or **eastus** rather than **Australia East** or **US East**)
 
     > **Note**: To identify Azure regions which support availability zones, refer to [https://docs.microsoft.com/en-us/azure/availability-zones/az-region](https://docs.microsoft.com/en-us/azure/availability-zones/az-region)
 

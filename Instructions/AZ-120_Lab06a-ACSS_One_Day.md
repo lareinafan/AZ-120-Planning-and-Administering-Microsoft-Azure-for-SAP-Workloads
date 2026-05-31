@@ -399,7 +399,7 @@ In this task, you create and configure a network security group (NSG) used to re
    |Name|**AllowAnyCustomStorageOutbound**|
    |Description|**Allow outbound connectivity to Azure Storage**|
 
-   >**Note**: You could replace the **Storage** service tag with one which is region-specific, such as **Storage.EastUS**.
+   >**Note**: You could replace the **Storage** service tag with one which is region-specific, such as **Storage.EastUS** or **Storage.AustraliaEast**.
 
    >**Note**: The following rule should be added to explicitly allow connectivity to Azure Key Vault.
 

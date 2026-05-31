@@ -15,7 +15,7 @@ lab:
     - 4 x Standard_DS1_v2 (1 vCPUs each) = 4
     - 6 x Standard_D4s_v3 (4 vCPUs each) = 24
 
-    > **Note**: Consider using **East US** or **East US2** regions for deployment of your resources.
+    > **Note**: Consider using **Australia East**, **East US**, or **East US2** regions for deployment of your resources.
 
     > **Note**: To identify the Azure regions that support availability zones, refer to <https://docs.microsoft.com/en-us/azure/availability-zones/az-overview>
 
@@ -39,7 +39,7 @@ Timeframe: 30 minutes
 
     > **Note**: If this is the first time you are launching Cloud Shell in the current Azure subscription, you will be asked to create an Azure file share to persist Cloud Shell files. If so, accept the defaults, which will result in creation of a storage account in an automatically generated resource group.
 
-1. In the Azure portal, in the **Cloud Shell** pane, at the PowerShell prompt, run the following: where `<Azure_region>` designates the target Azure region that you intend to use for this lab (e.g., `eastus`):
+1. In the Azure portal, in the **Cloud Shell** pane, at the PowerShell prompt, run the following: where `<Azure_region>` designates the target Azure region that you intend to use for this lab (e.g., `australiaeast` or `eastus`):
 
     ```powershell
     Get-AzVMUsage -Location '<Azure_region>' | Where-Object {$_.Name.Value -eq 'StandardDSv3Family'}
@@ -59,7 +59,7 @@ Timeframe: 30 minutes
     -   Quota type: **Compute/VM (cores/vCPUs) subscription limit increases**
 
 1. Click **Manage Quota**.
-1. Use the location dropdown menu to filter the results to the Azure region that you plan to use. It is recommended to use **East US** or **East US2**.
+1. Use the location dropdown menu to filter the results to the Azure region that you plan to use. It is recommended to use **Australia East**, **East US**, or **East US2**.
 1. Locate the **Standard DSv3 Family vCPUs** quota type and select the edit pencil.
 1. In the New Limit field, specify **40** and click **Save and Continue**.
 1. Locate the **Total Regional vCPUs** quota type and select the edit pencil.
@@ -77,7 +77,7 @@ Timeframe: 30 minutes
 
 1. From the lab computer, start a Web browser, and navigate to the Azure portal at `https://portal.azure.com`.
 1. In the Azure Portal, select the **Cloud Shell** icon and start a PowerShell session in Cloud Shell. 
-1. In the Azure portal, in the **Cloud Shell** pane, at the PowerShell prompt, run the following: where `<Azure_region>` designates the Azure region to which you intend to deploy resources in this lab (e.g., `eastus`):
+1. In the Azure portal, in the **Cloud Shell** pane, at the PowerShell prompt, run the following: where `<Azure_region>` designates the Azure region to which you intend to deploy resources in this lab (e.g., `australiaeast` or `eastus`):
 
     ```powershell
     Get-AzVMUsage -Location '<Azure_region>' | Where-Object {$_.Name.Value -eq 'standardEDSv4Family'}
